@@ -1,1 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --bc-color: linear-gradient(90deg, #212834 0%, #1F2633 100%);
+  --dark-color: #161E29;
+  --font-color: #fff;
+  --blue-element: #243CE6;
+  --group-color: #39475B;
+}
+
+@font-face {
+  font-family: "Roboto-bold";
+  src: local("Roboto"), url(./assets/fonts/Roboto-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto-regular";
+  src: local("Roboto"), url(./assets/fonts/Roboto-Regular.ttf) format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto-bold;
+  color: var(--font-color);
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+.grid {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
