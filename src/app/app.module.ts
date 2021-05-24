@@ -26,6 +26,10 @@ import { AddPcComponent } from './modal/add-pc/add-pc.component';
 import { DelPcComponent } from './modal/del-pc/del-pc.component';
 import { AddGroupComponent } from './modal/add-group/add-group.component';
 import { DelGroupComponent } from './modal/del-group/del-group.component';
+import { DiskListComponent } from './pages/pc-profile/components/disk-list/disk-list.component';
+import { DiskItemComponent } from './pages/pc-profile/components/disk-item/disk-item.component';
+import { ProfileComponent } from './pages/pc-profile/components/profile/profile.component';
+import { SettingsBtnComponent } from './components/settings-btn/settings-btn.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +44,10 @@ import { DelGroupComponent } from './modal/del-group/del-group.component';
     DelPcComponent,
     AddGroupComponent,
     DelGroupComponent,
+    DiskListComponent,
+    DiskItemComponent,
+    ProfileComponent,
+    SettingsBtnComponent,
   ],
   imports: [
     BrowserModule,

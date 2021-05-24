@@ -5,7 +5,7 @@ import {PcProfileComponent} from './pages/pc-profile/pc-profile.component';
 import {AuthComponent} from './pages/auth/auth.component';
 
 const routes: Routes = [
-  {path: '', component: DashboardComponent},
+  {path: '', component: PcProfileComponent},
   {path: 'dashboard', component: DashboardComponent},
   {path: 'pc/profile/:uuid', component: PcProfileComponent},
   {path: 'auth', component: AuthComponent},

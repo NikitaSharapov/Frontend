@@ -1,0 +1,13 @@
+.settings__btn {
+  background: var(--dark-color);
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  display: grid;
+  place-items: center;
+}
+
+.settings__btn:hover {
+  background: #10151d;
+  cursor: pointer;
+}
