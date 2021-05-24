@@ -1,0 +1,44 @@
+//общие стили компонента
+.card {
+  background: var(--dark-color);
+  border-radius: 10px;
+  width: 180px;
+  margin: 0 auto;
+
+  &__container {
+    display: grid;
+    padding: 8px 25px 20px;
+    place-items: center;
+    row-gap: 14px;
+  }
+
+  &__status {
+    width: 100px;
+    height: 5px;
+    background: #37CF8B;
+    border-radius: 10px;
+  }
+
+  &__info {
+    display: grid;
+    row-gap: 6px;
+    place-items: center; 
+  }
+
+  &__title {
+    font-size: 11px;
+  }
+
+  &__btn {
+    padding: 8px 36px;
+    background: var(--blue-element);
+    text-transform: none;
+    font-size: 11px;
+    border-radius: 5px;
+  }
+
+  &__btn-hover:hover {
+    background: #2136d8;
+  }
+}
+//общие стили компонента

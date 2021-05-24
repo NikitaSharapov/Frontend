@@ -1,0 +1,59 @@
+<div class="pc-list">
+  <div class="pc-list__container">
+    <div class="group">
+      <div class="group__nav">
+        <p class="group__title">
+          хакатон
+        </p>
+        <button class="group__btn group__btn-hover" #tooltip="matTooltip"
+        matTooltip="Настройки группы" matTooltipClass="tooltip" [matMenuTriggerFor]="menu"><img src="./assets/img/pc-list/settings.svg" alt="settings" class="group__img"></button>
+        <mat-menu #menu="matMenu" xPosition="before" class="menu">
+          <button mat-menu-item (click)="openAddPcDialog()">
+            <span class="menu__item">Добавить компьютер в группу</span>
+          </button>
+          <button mat-menu-item (click)="openDelPcDialog()">
+            <span class="menu__item">Удалить компьютер из группы</span>
+          </button>
+          <button mat-menu-item (click)="openDelGroupDialog()">
+            <span class="menu__item">Удалить группу</span>
+          </button>
+        </mat-menu>
+      </div>
+      <div class="group__list">
+        <app-pc-card></app-pc-card>
+        <app-pc-card></app-pc-card>
+        <app-pc-card></app-pc-card>
+        <app-pc-card></app-pc-card>
+        <app-pc-card></app-pc-card>
+        <app-pc-card></app-pc-card>
+        <app-pc-card></app-pc-card>
+        <app-pc-card></app-pc-card>
+        <app-pc-card></app-pc-card>
+      </div>
+    </div>
+    <div class="other">
+      <app-pc-card></app-pc-card>
+      <app-pc-card></app-pc-card>
+      <app-pc-card></app-pc-card>
+      <app-pc-card></app-pc-card>
+      <app-pc-card></app-pc-card>
+      <app-pc-card></app-pc-card>
+      <app-pc-card></app-pc-card>
+      <app-pc-card></app-pc-card>
+      <app-pc-card></app-pc-card>
+      <app-pc-card></app-pc-card>
+      <app-pc-card></app-pc-card>
+      <app-pc-card></app-pc-card>
+      <app-pc-card></app-pc-card>
+      <app-pc-card></app-pc-card>
+      <app-pc-card></app-pc-card>
+      <app-pc-card></app-pc-card>
+      <app-pc-card></app-pc-card>
+      <app-pc-card></app-pc-card>
+      <app-pc-card></app-pc-card>
+      <app-pc-card></app-pc-card>
+      <app-pc-card></app-pc-card>
+      <app-pc-card></app-pc-card>
+    </div>
+  </div>
+</div>
