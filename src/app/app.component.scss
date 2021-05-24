@@ -1,0 +1,7 @@
+.main-block {
+  max-width: 100%;
+  background: var(--bc-color);
+  height: 100vh;
+  display: grid;
+  grid-template: 1fr/ auto auto 1fr;
+}
