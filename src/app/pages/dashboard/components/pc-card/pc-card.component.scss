@@ -1,6 +1,9 @@
+//общие стили компонента
 .card {
   background: var(--dark-color);
   border-radius: 10px;
+  width: 180px;
+  margin: 0 auto;
 
   &__container {
     display: grid;
@@ -38,3 +41,4 @@
     background: #2136d8;
   }
 }
+//общие стили компонента

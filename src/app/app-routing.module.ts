@@ -1,8 +1,8 @@
 import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
-import {DashboardComponent} from './_pages/dashboard/dashboard.component';
-import {PcProfileComponent} from './_pages/pc-profile/pc-profile.component';
-import {AuthComponent} from './_pages/auth/auth.component';
+import {DashboardComponent} from './pages/dashboard/dashboard.component';
+import {PcProfileComponent} from './pages/pc-profile/pc-profile.component';
+import {AuthComponent} from './pages/auth/auth.component';
 
 const routes: Routes = [
   {path: '', component: DashboardComponent},

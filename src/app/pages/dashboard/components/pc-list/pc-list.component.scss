@@ -1,3 +1,4 @@
+//общие стили компонента
 .pc-list {
   display: grid;
   width: 100%;
@@ -41,7 +42,7 @@
   &__nav {
     display: flex;
     justify-content:  space-between;
-    padding: 16px 25px 15px;
+    padding: 16px 20px 15px;
     place-items: center;
   }
 
@@ -59,12 +60,16 @@
     background: var(--dark-color);
     border-radius: 5px;
     padding: 10px;
+    border: none;
+    display: grid;
+    place-items: center;
   }
 
   &__btn-hover:hover {
     background: #10151d;
     cursor: pointer;
   }
+
 }
 
 .other {
@@ -76,7 +81,9 @@
   justify-content: center;
   padding: 0 16px 16px;
 }
+//общие стили компонента
 
+// медия запросы
 @media all and (max-width:1600px) {
   .pc-list {
     padding: 35px 25px;
